@@ -56,6 +56,17 @@ li:hover{
 /*HEADER END*/
 
 /*MAIN START*/
+.posts{
+  text-align: justify;
+  width: 80%;
+  margin: 50px auto 0 auto;
+}
+
+.posts p{
+  display: block;
+  margin-bottom: 30px;
+}
+
 .block{
   display: inline-block;
   width: 25%;
@@ -74,7 +85,8 @@ main{
 	text-align: center;
 }
 #portfolio{
-  height: 750px;
+  margin-bottom: 50px;
+  position: relative;
 }
 
 
@@ -86,6 +98,7 @@ footer{
 	text-align: center;
 	width: 100%;
 	position: relative;
+  bottom: 0;
 }
 
 span{
