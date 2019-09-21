@@ -1,0 +1,96 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	/*border: 1px solid black;*/
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+  background-color: lightgrey;
+}
+
+/*HEADER START*/
+header{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	background-color:grey;
+	height: 50px;
+	z-index: 1;
+}
+
+#logo p{
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 225%;
+}
+#logo a{
+  text-decoration: none;
+  color: black;
+}
+
+#logo{
+	display: inline-block;
+}
+
+nav{
+	display: inline-block;
+	text-align: center;
+	position: absolute;
+	right: 5%;
+  text-transform: uppercase;
+}
+
+li{
+	display: inline-block;
+  height: 50px;
+  width: 100px;
+  line-height: 50px;
+  color:white;
+}
+
+li:hover{
+  color:blue;
+  background-color: darkgrey;
+}
+/*HEADER END*/
+
+/*MAIN START*/
+.block{
+  display: inline-block;
+  width: 25%;
+  margin:40px;
+  text-decoration: none;
+}
+
+.block img{
+  width: 100%;
+}
+
+.margin{
+	padding-top: 50px;
+}
+main{
+	text-align: center;
+}
+#portfolio{
+  height: 750px;
+}
+
+
+
+/*MAIN END*/
+/*FOOTER END*/
+footer{
+	background-color: grey;
+	text-align: center;
+	width: 100%;
+	position: relative;
+}
+
+span{
+	text-align: right;
+	position: absolute;
+	right: 0;
+}
+/*FOOTER END*/
